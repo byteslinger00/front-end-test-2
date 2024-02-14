@@ -1,0 +1,84 @@
+.layout {
+    background-color: var(--background-color-light);
+}
+
+.card{
+    width: 400px;
+    height: 100%;
+}
+
+.card-description {
+    left: 0px;
+    top: 100%;
+    transform: translate(0%, -100%);
+    width: 100%;
+    color: white;
+    padding: 20px;
+}
+
+.icon {
+    height: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.dot-icon {
+    height: 12px;
+}
+
+.btn {
+    width: 20px;
+    height: 20px;
+    padding: 4px 8px
+}
+
+.list-items-layout {
+    border-right: 1px dashed #ddd;
+}
+
+.messages {
+    height: 100px;
+    overflow: auto;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.sender {
+    background-color: var(--primary-color);
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+    border-radius: 10px 10px 0px 10px;
+}
+
+.receiver {
+    background-color: #f0f0f0;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+    border-radius: 10px 10px 10px 0px;
+}
+
+.btn-white {
+    color: white;
+    padding: 8px 20px;
+}
+
+.coins {
+    width: 50px;
+    height: 50px;
+}
+
+.bezierchart {
+    height: 50px;
+}
+
+
+.walletinfo {
+    max-height: 230px;
+  }
+  
